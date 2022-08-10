@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: yellow;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Home */
+.box{
+    float: left;
+    width: 50%;
+    padding: 1px;
+}
+
+.boximg{
+    width: 100%;
+}
+
+.para{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+@media screen and (max-width: 768px){
+    .para{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
+
+.para::first-letter{
+    font-size: 4rem;
+}
+
+/* About */
+.about{
+    margin: 5rem;
+}
+
+.hash{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px){
+    .hash{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+/* Layout */
+.Layoutul {
+    background-color: #000;
+    padding: 1rem;
+}
+
+.Layoutli {
+    display: inline;
+    margin : 2rem;
+}
+
+.Layouta {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Layouta:hover {
+    color: greenyellow;
+}
+
+.pa{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+/* comtact */
+
+.contact{
+    margin: 0 10rem;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: yellow;
+    line-height: 2rem;
+}
+
+label{
+    line-height: 1rem;
+}
+textarea{
+    color: yellow;
+}
+
+button{
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: greenyellow;
+}
+
+
